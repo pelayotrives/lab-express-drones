@@ -7,9 +7,9 @@
 <h4>MaxSpeed</h4>
 <li> {{this.maxSpeed}} </li>
 <br>
-<a href="/drones/{{this._id}}/edit"><button>Update</button></a>
+<a href="/drones/{{this._id}}/edit"><button class="btn btn-outline-info">Update</button></a>
 <form action="/drones/{{this._id}}/delete" method="POST">
-    <button>Delete drone</button>
+    <button class="btn btn-outline-danger">Delete drone</button>
 </form>
 <hr>
 {{/each}}
